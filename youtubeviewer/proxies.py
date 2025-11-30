@@ -34,11 +34,11 @@ def gather_proxy():
     print(bcolors.OKGREEN + 'Scraping proxies ...' + bcolors.ENDC)
 
     link_list = ['https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt',
-                 'https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt',
-                 'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt',
-                 'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt',
-                 'https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt',
-                 'https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt']
+                 'https://raw.githubusercontent.com/lalubalu062-tech/fresh-proxy-list/refs/heads/master/http.txt',
+                 'https://raw.githubusercontent.com/lalubalu062-tech/PROXY-List/d5579b860900551b18839fd96e61085b15fdb505/socks4.txt',
+                 'https://raw.githubusercontent.com/lalubalu062-tech/PROXY-List/refs/heads/master/socks5.txt',
+                 'https://raw.githubusercontent.com/lalubalu062-tech/PROXY-List/refs/heads/master/http.txt',
+                 'https://raw.githubusercontent.com/lalubalu062-tech/fresh-proxy-list/refs/heads/master/https.txt']
 
     for link in link_list:
         response = requests.get(link)
